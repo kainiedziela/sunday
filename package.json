@@ -1,0 +1,41 @@
+{
+  "name": "@kainiedziela/sunday",
+  "version": "1.0.0",
+  "description": "Determine when the next Sunday is and whether it's open to trade in Poland",
+  "main": "dist",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "del dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kainiedziela/sunday.git"
+  },
+  "keywords": [
+    "commerce",
+    "poland",
+    "polish",
+    "sunday",
+    "trade",
+    "typescript"
+  ],
+  "author": {
+    "name": "Kai Niedziela",
+    "email": "kai.niedziela@outlook.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kainiedziela/sunday/issues"
+  },
+  "homepage": "https://github.com/kainiedziela/sunday#readme",
+  "devDependencies": {
+    "@kainiedziela/tsconfig": "^0.5.0",
+		"@types/node": "^12.0.0",
+    "typescript": "^3.4.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

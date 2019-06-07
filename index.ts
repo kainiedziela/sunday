@@ -136,11 +136,11 @@ const sameMonth = (date: Date, months: Array<number>): boolean =>
 const dateToString = (date: Date): string =>  `${date.getDate()}.${date.getMonth() + 1}`;
 
 // an invalid date object returns NaN for getTime()
-const isValidDate = (date: Date): boolean => !isNaN(date.getTime());
+const isInvalidDate = (date: Date): boolean => isNaN(date.getTime());
 
 const dateErrorHandler = (date: Date): void => {
   if (Object.prototype.toString.call(date) !== '[object Date]') { throw new Error(`Expected instance of Date, got ${Object.prototype.toString.call(date)}`); }
-  if (isValidDate(date)) { throw new Error('Passed date is invalid.'); }
+  if (isInvalidDate(date)) { throw new Error('Passed date is invalid.'); }
 };
 
 module.exports = sunday;

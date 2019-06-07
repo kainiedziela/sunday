@@ -23,4 +23,10 @@ const storesOpened: boolean = sunday.trade(nextSunday);
 
 If an invalid `Date` object or something that isn't an `instanceof Date` will be passed as an argument to either of those functions an error will be thrown indicating what went wrong.
 
+## Testing
+
+Tests are performed with [Jest](https://jestjs.io/en/) on a built JavaScript file.
+
+`npm run test`
+
 This project is under the **MIT license**.

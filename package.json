@@ -1,6 +1,6 @@
 {
   "name": "@kainiedziela/sunday",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Determine when the next Sunday is and whether it's open to trade in Poland",
   "main": "dist",
   "engines": {
@@ -32,10 +32,9 @@
   },
   "homepage": "https://github.com/kainiedziela/sunday#readme",
   "devDependencies": {
-    "@kainiedziela/tsconfig": "^0.5.0",
-    "@types/node": "^12.0.0",
-    "jest": "^24.8.0",
-    "typescript": "^3.4.1"
+    "@types/node": "^12.12.32",
+    "jest": "^25.2.3",
+    "typescript": "^3.8.3"
   },
   "publishConfig": {
     "access": "public"

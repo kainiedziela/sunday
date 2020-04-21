@@ -135,9 +135,7 @@ const pentecostDate = (year: number): Date =>
   );
 
 const sameDayAndMonth = (date1: Date, date2: Date): boolean =>
-  date1.getDate() === date2.getDate() && date1.getMonth() === date2.getMonth()
-    ? true
-    : false;
+  date1.getDate() === date2.getDate() && date1.getMonth() === date2.getMonth();
 
 const sameMonth = (date: Date, months: Array<number>): boolean =>
   !!months.find(month => month === date.getMonth() + 1);
